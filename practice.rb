@@ -51,3 +51,12 @@ puts num.round()
 # Floating numbers Vs Intergers
 puts 10/ 6.0 # will return all the decimal places...floating number
 puts 10 / 6 # will return just the value "1"....integer
+
+# Getting inputs with users
+puts "Enter your name: ".upcase()
+# .chomp method gets rid of auto line break 
+name = gets.chomp()
+
+puts "Enter your age: ".upcase()
+age = gets.chomp()
+puts ("Hello " + name + " , you are the man at " + age)
