@@ -22,3 +22,14 @@ number = 21
 boolean = "true or false"
 # New data type to show variable has no value
 newType = nil
+
+# Playing with strings
+myName = "Phillip\'s House"
+puts myName.upcase()
+puts myName.downcase()
+puts myName.length()
+
+# Include method tells whether the given phrase or word in the quotation marks exist..will return true or false
+puts myName.include? "House" # will return true
+puts myName.include? "Cumberlander" # will return false
+
