@@ -9,8 +9,9 @@ puts "Will add a automatic line break"
 
 char_name = "Phillip"
 char_age = "26"
+puts (char_name + " is a young bull")
+puts ("He is almost " + char_age + " years old")
 
-puts char_name + " is a young bull"
-puts "He is almost " + char_age + " years old"
-puts char_name + " whats ya sign foo"
-puts "Good luck at " + char_age
+char_name = "Jamal"
+puts (char_name + " whats ya sign foo")
+puts ("Good luck at " + char_age)
