@@ -60,3 +60,24 @@ name = gets.chomp()
 puts "Enter your age: ".upcase()
 age = gets.chomp()
 puts ("Hello " + name + " , you are the man at " + age)
+
+
+# Creating a calculator
+puts "Enter number 1: "
+num1 = gets.chomp()
+puts "Enter number 2: "
+num2 = gets.chomp()
+
+# method ".to_i" converts strings into integer numbers
+# puts num1.to_i + num2.to_i
+
+# method ".to_f" converts strings into floating point numbers
+puts num1.to_f + num2.to_f
+
+puts "Enter number 3: "
+num3 = gets.chomp().to_i
+puts "Enter number 4: "
+num4 = gets.chomp().to_i
+
+# method ".to_i" converts strings into integer numbers
+puts num3 + num4
