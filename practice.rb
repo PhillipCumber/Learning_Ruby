@@ -81,3 +81,16 @@ num4 = gets.chomp().to_i
 
 # method ".to_i" converts strings into integer numbers
 puts num3 + num4
+
+
+# Creating a madlib game
+puts "Enter a name:"
+name_lib = gets.chomp()
+puts "Enter a color:"
+color_lib = gets.chomp()
+puts "Enter a show:"
+show_lib = gets.chomp()
+
+puts (name_lib + " is the best player ever")
+puts ("I like the color " + color_lib)
+puts ("My favorite show is" + show_lib)
