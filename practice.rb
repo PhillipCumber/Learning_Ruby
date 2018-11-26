@@ -24,6 +24,7 @@ boolean = "true or false"
 newType = nil
 
 # Playing with strings
+puts "this works???".upcase()
 myName = "Phillip\'s House"
 puts myName.upcase()
 puts myName.downcase()
@@ -33,3 +34,20 @@ puts myName.length()
 puts myName.include? "House" # will return true
 puts myName.include? "Cumberlander" # will return false
 
+# Numbers
+puts 5 + 5
+# Exponents (two asteriks to represent 5^2)
+puts 5**2
+
+number = 15
+puts number - 5
+# Use the ".to_s" method to convert a number into a string
+puts ("my fav num is " + number.to_s)
+
+num = 11.812
+# .floor method for numbers rounds down,,  .ciel method rounds up
+puts num.round()
+
+# Floating numbers Vs Intergers
+puts 10/ 6.0 # will return all the decimal places...floating number
+puts 10 / 6 # will return just the value "1"....integer
